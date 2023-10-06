@@ -1,0 +1,39 @@
+Algorithme note
+Varible : n1,n2,n3,m:Entier
+Debut:
+Ecrire("Taper la 1ere note")
+Lire(n1)
+Ecrire("Taper la 2eme note")
+Lire(n2)
+Ecrire("Taper la 3eme note")
+Lire(n3)
+
+tant que n1<0 ou n2>20 faire
+Ecrire("Taper la 1ere note")
+Lire(n1)
+tant que n2<0 ou n2>20 faire
+Ecrire("Taper la 2eme note")
+Lire(n2)
+tant que n3<0 ou n3>20 faire
+Ecrire("Taper la 3eme note")
+Lire(n3)
+fin pour
+fin pour
+fin pour
+
+m-->(n1+n2+n3)/3
+
+si m>=16 alors
+Ecire("Tres bien")
+sinon si m>=14 et m<16 alors
+Ecire("Bien")
+sinon si m>=12 et m<14 alors
+Ecire("Assez bien")
+sinon si m>=10 et m<12 alors
+Ecire("Passable")
+sinon si m<10  et m>0 alors
+Ecire("Insuffisant")
+sinon
+Ecire("ERROR")
+fin si
+fin
