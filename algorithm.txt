@@ -17,22 +17,22 @@ Lire(n2)
 tant que n3<0 ou n3>20 faire
 Ecrire("Taper la 3eme note")
 Lire(n3)
-fin pour
-fin pour
-fin pour
+fin tant que
+fin tant que
+fin tant que
 
 m-->(n1+n2+n3)/3
 
 si m>=16 alors
-Ecire("Tres bien")
+Ecire(m,"Tres bien")
 sinon si m>=14 et m<16 alors
-Ecire("Bien")
+Ecire(m,"Bien")
 sinon si m>=12 et m<14 alors
-Ecire("Assez bien")
+Ecire(m,"Assez bien")
 sinon si m>=10 et m<12 alors
-Ecire("Passable")
+Ecire(m,"Passable")
 sinon si m<10  et m>0 alors
-Ecire("Insuffisant")
+Ecire(m,"Insuffisant")
 sinon
 Ecire("ERROR")
 fin si
