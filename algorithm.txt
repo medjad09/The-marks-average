@@ -1,5 +1,5 @@
 Algorithme note
-Varible : n1,n2,n3,m:Entier
+Varible : n1,n2,n3,m:Reel
 Debut:
 Ecrire("Taper la 1ere note")
 Lire(n1)
